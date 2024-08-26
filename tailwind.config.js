@@ -12,7 +12,8 @@ export default {
         "lightpurple": "#6f70c0",
         "purple": "#5a5ac3",
         "orange": "#f16767",
-        "cyan": "#33bbc5"
+        "cyan": "#33bbc5",
+        "darkblue": "#17305a"
       }
     },
   },

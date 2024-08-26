@@ -1,6 +1,6 @@
 
 export default function QAPlay() {
   return (
-    <div>QAPlay</div>
+    <div>qa</div>
   )
 }

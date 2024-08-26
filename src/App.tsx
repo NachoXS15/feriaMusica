@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 function App() {
 	return (
 		<>
-			<div className='w-fullbg-black '>
+			<div className='w-full bg-black '>
 				<div className="w-full flex justify-between relative overflow-hidden">
 					<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" style={{ position: 'relative', top: '-300px', left: '-200px' }} viewBox="0 0 1267 1267">
 						<g id="Grupo_1" data-name="Grupo 1" transform="translate(205.785 -1153.215)">
@@ -43,10 +43,10 @@ function App() {
 				<img src="/assets/items/Logo.webp" className="absolute z-10 top-16 m-auto left-0 right-0" width={300} alt="" />
 				<iframe className="absolute top-72 left-0 right-0 m-auto rounded" src="https://open.spotify.com/embed/playlist/6E6n0pbdcfj4vlZQzqzwEK?utm_source=generator" width="80%" height={500} allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 				<div className="w-4/5 flex justify-between relative" style={{top: '-300px'}}>
-					<NavLink to="/memory-play">
+					<NavLink to="/memory-rules">
 						<img width={350} className="active:scale-110 transition" src="/assets/items/memory.webp" alt="" />
 					</NavLink>
-					<NavLink to="/qa-play">
+					<NavLink to="/qa-rules">
 						<img width={350} className="active:scale-110 transition" src="/assets/items/ritmo.webp" alt="" />
 					</NavLink>
 				</div>
