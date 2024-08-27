@@ -41,7 +41,7 @@ function App() {
 			</div>
 			<div className="flex flex-col items-center h-1">
 				<img src="/assets/items/Logo.webp" className="absolute z-10 top-16 m-auto left-0 right-0" width={300} alt="" />
-				<iframe className="absolute top-72 left-0 right-0 m-auto rounded-md" src="https://open.spotify.com/embed/playlist/6E6n0pbdcfj4vlZQzqzwEK?utm_source=generator" width="80%" height="500" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+				<iframe className="absolute top-72 left-0 right-0 m-auto rounded-md" src="https://open.spotify.com/embed/playlist/6E6n0pbdcfj4vlZQzqzwEK?utm_source=generator" width="80%" height="500" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 				<div className="w-4/5 flex justify-between relative" style={{top: '-300px'}}>
 					<NavLink to="/memory-rules" target="_blank">
 						<img width={350} className="active:scale-110 transition" src="/assets/items/memory.webp" alt="" />
