@@ -108,7 +108,7 @@ export default function MemoryPlay() {
 
 	//condiciones para terminar el juego y mostrar resultados
 	useEffect(() => {
-		if ((score === 10 || timeLeft === 0) && !hasGameEnded) {
+		if ((score === 11 || timeLeft === 0) && !hasGameEnded) {
 			setHasGameEnded(true); // Evitar múltiples ejecuciones
 			setIsFinished(true);
 			setShowResults(true);
@@ -164,7 +164,7 @@ export default function MemoryPlay() {
 						</div>
 						<div className='w-full flex justify-around mt-4'>
 							<h2 className='text-4xl pb-10 pr-10'>Tiempo restante: <span className={`${timeLeft < 30 ? "text-red-600" : "text-white"}`}>{timeLeft}</span>s</h2>
-							<h2 className='text-4xl pb-10 pr-10'>Puntuacion: {score}/10</h2>
+							<h2 className='text-4xl pb-10 pr-10'>Puntuacion: {score}/11</h2>
 						</div>
 					</div>
 				</div>
