@@ -4,7 +4,6 @@ import cards from "../../config/Cards";
 import getPhrase from "./getPhrase";
 import bgResult from '../../../public/assets/memory_result.webp'
 import Card from "../../components/Card";
-import { useNavigate } from "react-router-dom";
 export default function MemoryPlay() {
 	const [cardsA, setCardsA] = useState<CardProps[]>([]);
 	const [firstCard, setFirstCard] = useState<CardProps | null>(null);
@@ -12,14 +11,14 @@ export default function MemoryPlay() {
 	const [disabledCards, setDisabledCards] = useState<number[]>([]);
 	const [unFlippedCards, setUnFlippedCards] = useState<number[]>([]);
 	const [score, setScore] = useState(0)
-	const [timeLeft, setTimeLeft] = useState(120)
+	const [timeLeft, setTimeLeft] = useState(5)
 	const [isFinished, setIsFinished] = useState(false);
 	const [showResults, setShowResults] = useState(false);
 	const [phrase, setPhrase] = useState({ title: '', desc: '' })
 	const [hasGameEnded, setHasGameEnded] = useState(false)
-	const navigate = useNavigate();
+
 	const closeModal = () => {
-		navigate('/memory-rules')
+		window.close();
 	}
 
 	//baraja las cartas aleatoriamente
@@ -167,11 +166,8 @@ export default function MemoryPlay() {
 							<h2 className='text-4xl pb-10 pr-10'>Tiempo restante: <span className={`${timeLeft < 30 ? "text-red-600" : "text-white"}`}>{timeLeft}</span>s</h2>
 							<h2 className='text-4xl pb-10 pr-10'>Puntuacion: {score}/10</h2>
 						</div>
-
 					</div>
-
 				</div>
-
 			</div>
 			{
 				isFinished && showResults ? <>

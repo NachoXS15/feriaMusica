@@ -8,7 +8,7 @@ export default function MemoryRules() {
             <h2 className=' pt-20 text-7xl font-bold text-darkblue' style={{ fontFamily: 'dynapuff' }}>Juego de la Memoria</h2>
             <div>
                 <p className='pb-2 text-5xl font-bold text-darkblue' style={{ fontFamily: 'dynapuff-semi-condensed' }}>OBJETIVO DEL JUEGO:</p>
-                <span className='text-4xl font-semibold text-darkblue' style={{fontFamily: 'dynapuff-condensed'}}>tenes</span>
+                <span className='text-4xl font-semibold text-darkblue' style={{fontFamily: 'dynapuff-condensed'}}>Para ganar debes encontrar todos los pares de cartas iguales</span>
             </div>
             <NavLink to='/memory-play' className='text-5xl rounded-full bg-darkblue text-white px-7 py-3 mb-20' style={{fontFamily: 'dynapuff'}}>
                 Jugar
