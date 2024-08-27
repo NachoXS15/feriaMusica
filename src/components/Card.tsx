@@ -22,7 +22,7 @@ export default function Card({ cardName, flipCards, img, index, unFlippedCards, 
     }
   }, [unFlippedCards]);
 
-  useEffect(() => {
+  useEffect(() => { 
     if (disabledCards?.includes(index!)) {
       setHasEvent(false);
     }
@@ -31,7 +31,7 @@ export default function Card({ cardName, flipCards, img, index, unFlippedCards, 
   return (
     <ReactCardFlip isFlipped={isFlipped}>
       <img src={dorso} width={107} className="m-1" alt="" onClick={handleClick} />
-      <img src={`/public/assets/cards/${img}`} width={107} className="m-1" alt="" onClick={handleClick} />
+      <img src={`/assets/cards/${img}`} width={107} className="m-1" alt="" onClick={handleClick} />
     </ReactCardFlip>
   );
 }

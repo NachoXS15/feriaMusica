@@ -11,7 +11,7 @@ export default function MemoryPlay() {
 	const [disabledCards, setDisabledCards] = useState<number[]>([]);
 	const [unFlippedCards, setUnFlippedCards] = useState<number[]>([]);
 	const [score, setScore] = useState(0)
-	const [timeLeft, setTimeLeft] = useState(5)
+	const [timeLeft, setTimeLeft] = useState(120)
 	const [isFinished, setIsFinished] = useState(false);
 	const [showResults, setShowResults] = useState(false);
 	const [phrase, setPhrase] = useState({ title: '', desc: '' })

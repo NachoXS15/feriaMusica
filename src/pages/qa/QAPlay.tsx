@@ -134,7 +134,7 @@ export default function QAPlay() {
                         </div>
                         <div className='mt-10'>
                             <h2 className='text-5xl'>Acertaste:</h2>
-                            <h2 className='text-4xl'><span className='text-green-600'>{score} </span>de 5 preguntas</h2>
+                            <h2 className='text-4xl'><span className='text-green-600'>{score} </span>de 10 preguntas</h2>
                         </div>
                         <button
                             onClick={() => closeModalGo()}
@@ -148,18 +148,19 @@ export default function QAPlay() {
             </>}
             {isFinished && showAnswers && <>
                 <div
-                    className="w-5/6 h-[750px] rounded-3xl m-auto overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none bg-cover bg-center focus:outline-none"
+                    className="w-11/12 h-[850px] rounded-3xl m-auto overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none bg-cover bg-center focus:outline-none"
                     style={{ backgroundImage: `url(${bgResult})`, fontFamily: 'dynapuff' }}
                 >
-                    <div className="w-full h-[600px] my-16 gap-5 bg-cover bg-center flex flex-col items-center justify-center text-white">
+                    <div className="w-full h-[700px] my-16 gap-5 bg-cover bg-center flex flex-col items-center justify-center text-white">
                         {/*content*/}
                         <h1 className='text-5xl mt-8'>Verificá tus respuestas</h1>
-                        <section className='w-full flex flex-wrap items-center justify-center gap-2'>
+                        <section className='w-full flex flex-wrap  items-center justify-center gap-0.5'>
                             {optionsPicked.map((picked, index) => (
-                                <div key={index} className='w-1/3'>
-                                    <p className='text-xl'><strong><span className='text-2xl'>Pregunta: </span></strong><br />{picked.question}</p>
-                                    <p className='text-xl'><strong><span>Respuesta Elegida: </span></strong>{picked.answer} - <span className={picked.isCorrect ? 'bg-green-600 text-xl' : 'bg-red-600 text-xl'}>({picked.answer === "" ? 'No respondió' : picked.isCorrect ? 'Correcto' : 'Incorrecto'})</span></p>
-                                </div>
+                                <div key={index} className='w-1/3 flex flex-col'>
+                                    <p className='text-xl'><strong><span className='text-xl'>Pregunta: </span></strong><br />{picked.question}</p>
+                                    <p className='text-md'><strong><span>Respuesta Elegida: </span></strong>{picked.answer} - <span className={picked.isCorrect ? 'bg-green-600 text-xl' : 'bg-red-600 text-xl'}>({picked.answer === "" ? 'No respondió' : picked.isCorrect ? 'Correcto' : 'Incorrecto'})</span></p>
+									<hr className="w-3/5 border" />
+								</div>
                             ))}
                         </section>
                         <button onClick={closeModalAnswers} className="text-3xl  bg-purple px-3 py-4 rounded-full active:scale-105 transition">Volver a empezar</button>

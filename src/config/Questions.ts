@@ -1,334 +1,364 @@
 const Questions = [
     {
         id: "1",
-        question: "¿Cuál es el nombre del personaje principal en 'Peppa Pig'?",
+        question: "¿Quién es conocido como 'El Flaco' en el rock argentino?",
         answers: [
-            { answer: "George", isCorrect: false },
-            { answer: "Suzy", isCorrect: false },
-            { answer: "Peppa", isCorrect: true },
-            { answer: "Pedro", isCorrect: false }
+            { answer: "Ricardo Iorio", isCorrect: false },
+            { answer: "Charly García", isCorrect: false },
+            { answer: "Gustavo Cerati", isCorrect: false },
+            { answer: "Andrés Calamaro", isCorrect: false },
+            { answer: "Luis Alberto Spinetta", isCorrect: true }
         ],
         block: 1
     },
     {
         id: "2",
-        question: "¿Qué animal es conocido por tener la lengua más larga del reino animal?",
+        question: "¿Cuál de estos tangos fue compuesto por Carlos Gardel?",
         answers: [
-            { answer: "León", isCorrect: false },
-            { answer: "Elefante", isCorrect: false },
-            { answer: "Jirafa", isCorrect: false },
-            { answer: "Camaleón", isCorrect: true }
+            { answer: "Cambalache", isCorrect: false },
+            { answer: "El día que me quieras", isCorrect: false },
+            { answer: "Por una cabeza", isCorrect: false },
+            { answer: "Mi Buenos Aires querido", isCorrect: true },
+            { answer: "La cumparsita", isCorrect: false }
         ],
         block: 1
     },
     {
         id: "3",
-        question: "¿Cuál es el apodo de la selección argentina de fútbol?",
+        question: "¿Qué grupo popularizó el tema 'La Balsa'?",
         answers: [
-            { answer: "La Celeste", isCorrect: false },
-            { answer: "Los Pumas", isCorrect: false },
-            { answer: "La Albiceleste", isCorrect: true },
-            { answer: "Los Cóndores", isCorrect: false }
+            { answer: "Soda Stereo", isCorrect: false },
+            { answer: "Los Gatos", isCorrect: true },
+            { answer: "Los Redondos", isCorrect: false },
+            { answer: "Virus", isCorrect: false },
+            { answer: "Los Auténticos Decadentes", isCorrect: false }
         ],
         block: 1
     },
     {
         id: "4",
-        question: "¿En qué ciudad de Argentina se encuentra el famoso Obelisco?",
+        question: "¿Quién es la voz principal de la banda de cumbia 'Los Ángeles Azules'?",
         answers: [
-            { answer: "Córdoba", isCorrect: false },
-            { answer: "Mendoza", isCorrect: false },
-            { answer: "Buenos Aires", isCorrect: true },
-            { answer: "Rosario", isCorrect: false }
+            { answer: "No pertenecen a la música argentina", isCorrect: true },
+            { answer: "Pablo Lescano", isCorrect: false },
+            { answer: "Sebastián Mendoza", isCorrect: false },
+            { answer: "Mario Luis", isCorrect: false },
+            { answer: "Rodrigo Bueno", isCorrect: false }
         ],
         block: 1
     },
     {
         id: "5",
-        question: "¿Cuál es el nombre del amigo de Mickey Mouse que es un perro?",
+        question: "¿Cuál es el nombre del álbum debut de Soda Stereo?",
         answers: [
-            { answer: "Pluto", isCorrect: true },
-            { answer: "Goofy", isCorrect: false },
-            { answer: "Donald", isCorrect: false },
-            { answer: "Clarabell", isCorrect: false }
+            { answer: "Soda Stereo", isCorrect: true },
+            { answer: "Signos", isCorrect: false },
+            { answer: "Doble Vida", isCorrect: false },
+            { answer: "Canción Animal", isCorrect: false },
+            { answer: "Dynamo", isCorrect: false }
         ],
         block: 1
     },
     {
         id: "6",
-        question: "¿Cuál es el nombre del personaje principal en el videojuego 'Super Mario'?",
+        question: "¿Qué cantante de folklore argentino es conocido como 'El Chaqueño'?",
         answers: [
-            { answer: "Luigi", isCorrect: false },
-            { answer: "Bowser", isCorrect: false },
-            { answer: "Mario", isCorrect: true },
-            { answer: "Wario", isCorrect: false }
+            { answer: "Jorge Rojas", isCorrect: false },
+            { answer: "Abel Pintos", isCorrect: false },
+            { answer: "Soledad Pastorutti", isCorrect: false },
+            { answer: "Oscar Esperanza Palavecino", isCorrect: true },
+            { answer: "Luciano Pereyra", isCorrect: false }
         ],
-        block: 2
+        block: 1
     },
     {
         id: "7",
-        question: "¿Cuál es el nombre del perro inteligente y de gran tamaño en la serie animada 'Paw Patrol'?",
+        question: "¿En qué año se fundó la banda 'Los Auténticos Decadentes'?",
         answers: [
-            { answer: "Marshall", isCorrect: false },
-            { answer: "Rubble", isCorrect: false },
-            { answer: "Chase", isCorrect: true },
-            { answer: "Rocky", isCorrect: false }
+            { answer: "1985", isCorrect: false },
+            { answer: "1986", isCorrect: true },
+            { answer: "1987", isCorrect: false },
+            { answer: "1988", isCorrect: false },
+            { answer: "1989", isCorrect: false }
         ],
-        block: 2
+        block: 1
     },
     {
         id: "8",
-        question: "¿Cómo se llama el ratón protagonista de la película 'Ratatouille' que sueña con convertirse en chef?",
+        question: "¿Quién interpretó la canción 'Deja de llorar'?",
         answers: [
-            { answer: "Linguini", isCorrect: false },
-            { answer: "Remy", isCorrect: true },
-            { answer: "Emile", isCorrect: false },
-            { answer: "Anton", isCorrect: false }
+            { answer: "Axel", isCorrect: false },
+            { answer: "El Polaco", isCorrect: true },
+            { answer: "Luciano Pereyra", isCorrect: false },
+            { answer: "Diego Torres", isCorrect: false },
+            { answer: "Cacho Castaña", isCorrect: false }
         ],
-        block: 2
+        block: 1
     },
     {
         id: "9",
-        question: "¿Qué emoción es la líder del grupo en la película 'Intensamente'?",
+        question: "¿Cuál es el verdadero nombre de 'La Mona' Jiménez?",
         answers: [
-            { answer: "Tristeza", isCorrect: false },
-            { answer: "Ira", isCorrect: false },
-            { answer: "Miedo", isCorrect: false },
-            { answer: "Alegría", isCorrect: true }
+            { answer: "Carlos Jiménez", isCorrect: true },
+            { answer: "Marcelo Jiménez", isCorrect: false },
+            { answer: "Jorge Jiménez", isCorrect: false },
+            { answer: "Luis Jiménez", isCorrect: false },
+            { answer: "Miguel Jiménez", isCorrect: false }
         ],
-        block: 2
+        block: 1
     },
     {
         id: "10",
-        question: "¿Cuáles son los nombres de las emociones principales en la película 'Intensamente'?",
+        question: "¿Qué banda es conocida por la canción 'Siguiendo la Luna'?",
         answers: [
-            { answer: "Alegría, Tristeza, Ira, Miedo, Desagrado", isCorrect: true },
-            { answer: "Felicidad, Enojo, Ansiedad, Sorpresa, Aburrimiento", isCorrect: false },
-            { answer: "Alegría, Desesperación, Envidia, Miedo, Nostalgia", isCorrect: false },
-            { answer: "Felicidad, Ira, Miedo, Vergüenza, Desagrado", isCorrect: false }
+            { answer: "Los Palmeras", isCorrect: false },
+            { answer: "Los Fabulosos Cadillacs", isCorrect: true },
+            { answer: "Los Nocheros", isCorrect: false },
+            { answer: "La Beriso", isCorrect: false },
+            { answer: "Catupecu Machu", isCorrect: false }
+        ],
+        block: 1
+    },
+    {
+        id: "11",
+        question: "¿Qué grupo de rock argentino lanzó el álbum 'Oktubre'?",
+        answers: [
+            { answer: "Virus", isCorrect: false },
+            { answer: "Patricio Rey y sus Redonditos de Ricota", isCorrect: true },
+            { answer: "Los Fabulosos Cadillacs", isCorrect: false },
+            { answer: "Soda Stereo", isCorrect: false },
+            { answer: "Los Auténticos Decadentes", isCorrect: false }
         ],
         block: 2
     },
     {
-        id: "11",
-        question: "¿Cuál es el nombre real de Spider-Man?",
-        answers: [
-            { answer: "Peter Parker", isCorrect: true },
-            { answer: "Bruce Wayne", isCorrect: false },
-            { answer: "Clark Kent", isCorrect: false },
-            { answer: "Tony Stark", isCorrect: false }
-        ],
-        block: 3
-    },
-    {
         id: "12",
-        question: "¿Qué tipo de animal muerde a Peter Parker y le da sus poderes de Spider-Man?",
+        question: "¿Cuál de estos temas es interpretado por Mercedes Sosa?",
         answers: [
-            { answer: "Una araña", isCorrect: true },
-            { answer: "Un ratón", isCorrect: false },
-            { answer: "Un perro", isCorrect: false },
-            { answer: "Un pájaro", isCorrect: false }
+            { answer: "Zamba para olvidarte", isCorrect: false },
+            { answer: "Gracias a la vida", isCorrect: false },
+            { answer: "Alfonsina y el mar", isCorrect: false },
+            { answer: "Canción con todos", isCorrect: false },
+            { answer: "Todas son correctas", isCorrect: true }
         ],
-        block: 3
+        block: 2
     },
     {
         id: "13",
-        question: "¿Cuál es el nombre del protagonista de la película 'Coco'?",
+        question: "¿Quién compuso 'Adiós Nonino'?",
         answers: [
-            { answer: "Miguel", isCorrect: true },
-            { answer: "Hector", isCorrect: false },
-            { answer: "Ernesto", isCorrect: false },
-            { answer: "Julio", isCorrect: false }
+            { answer: "Mariano Mores", isCorrect: false },
+            { answer: "Astor Piazzolla", isCorrect: true },
+            { answer: "Carlos Gardel", isCorrect: false },
+            { answer: "Aníbal Troilo", isCorrect: false },
+            { answer: "Osvaldo Pugliese", isCorrect: false }
         ],
-        block: 3
+        block: 2
     },
     {
         id: "14",
-        question: "¿Cómo se llaman los tres protagonistas de la serie 'Escandalosos'?",
+        question: "¿Qué banda popularizó el tema 'Loco Tu Forma de Ser'?",
         answers: [
-            { answer: "Pardo, Panda y Polar", isCorrect: true },
-            { answer: "Rocky, Spike y Bruno", isCorrect: false },
-            { answer: "Leo, Max y Oscar", isCorrect: false },
-            { answer: "Beto, Lucho y Rocco", isCorrect: false }
+            { answer: "Los Pericos", isCorrect: false },
+            { answer: "Los Auténticos Decadentes", isCorrect: true },
+            { answer: "Los Enanitos Verdes", isCorrect: false },
+            { answer: "La Mosca Tsé-Tsé", isCorrect: false },
+            { answer: "Rata Blanca", isCorrect: false }
         ],
-        block: 3
+        block: 2
     },
     {
         id: "15",
-        question: "¿Cómo se llama el personaje amarillo que vive en una piña en el fondo del mar?",
+        question: "¿Cuál es el nombre de la cantante de cumbia conocida como 'La Reina de la Movida Tropical'?",
         answers: [
-            { answer: "Bob Esponja", isCorrect: true },
-            { answer: "Patricio", isCorrect: false },
-            { answer: "Calamardo", isCorrect: false },
-            { answer: "Don Cangrejo", isCorrect: false }
+            { answer: "Gilda", isCorrect: true },
+            { answer: "Rodrigo Bueno", isCorrect: false },
+            { answer: "Pablo Lescano", isCorrect: false },
+            { answer: "Walter Olmos", isCorrect: false },
+            { answer: "Sebastián Mendoza", isCorrect: false }
+        ],
+        block: 2
+    },
+    {
+        id: "16",
+        question: "¿Cuál fue el primer disco de Charly García como solista?",
+        answers: [
+            { answer: "Clics Modernos", isCorrect: false },
+            { answer: "Parte de la Religión", isCorrect: false },
+            { answer: "Música del Alma", isCorrect: true },
+            { answer: "Piano Bar", isCorrect: false },
+            { answer: "Cómo Conseguir Chicas", isCorrect: false }
+        ],
+        block: 2
+    },
+    {
+        id: "17",
+        question: "¿Qué cantante es conocido por el tema 'Azúcar Amargo'?",
+        answers: [
+            { answer: "Soledad Pastorutti", isCorrect: false },
+            { answer: "Valeria Lynch", isCorrect: false },
+            { answer: "Fey", isCorrect: true },
+            { answer: "Sandra Mihanovich", isCorrect: false },
+            { answer: "Marcela Morelo", isCorrect: false }
+        ],
+        block: 2
+    },
+    {
+        id: "18",
+        question: "¿Qué grupo es conocido por fusionar rock y folklore en Argentina?",
+        answers: [
+            { answer: "Soda Stereo", isCorrect: false },
+            { answer: "Los Auténticos Decadentes", isCorrect: false },
+            { answer: "Los Redondos", isCorrect: false },
+            { answer: "Arbolito", isCorrect: true },
+            { answer: "Babasónicos", isCorrect: false }
+        ],
+        block: 2
+    },
+    {
+        id: "19",
+        question: "¿Qué artista lanzó el álbum 'Cenizas en el viento'?",
+        answers: [
+            { answer: "Soledad Pastorutti", isCorrect: false },
+            { answer: "León Gieco", isCorrect: true },
+            { answer: "Víctor Heredia", isCorrect: false },
+            { answer: "Abel Pintos", isCorrect: false },
+            { answer: "Jorge Rojas", isCorrect: false }
+        ],
+        block: 2
+    },
+    {
+        id: "20",
+        question: "¿Cuál es la canción más famosa de la banda 'Los Piojos'?",
+        answers: [
+            { answer: "La Rubia Tarada", isCorrect: false },
+            { answer: "El Farolito", isCorrect: true },
+            { answer: "De Música Ligera", isCorrect: false },
+            { answer: "Ji Ji Ji", isCorrect: false },
+            { answer: "Mi Buenos Aires Querido", isCorrect: false }
+        ],
+        block: 2
+    },
+    {
+        id: "21",
+        question: "¿Qué cantante es conocido como 'El Rey del Pop'?",
+        answers: [
+            { answer: "Elvis Presley", isCorrect: false },
+            { answer: "Michael Jackson", isCorrect: true },
+            { answer: "Prince", isCorrect: false },
+            { answer: "Madonna", isCorrect: false },
+            { answer: "David Bowie", isCorrect: false }
         ],
         block: 3
     },
     {
-        id: "16",
-        question: "¿Cuál es el nombre del perro que siempre acompaña a Mickey Mouse?",
-        answers: [
-            { answer: "Pluto", isCorrect: true },
-            { answer: "Goofy", isCorrect: false },
-            { answer: "Donald", isCorrect: false },
-            { answer: "Clarabelle", isCorrect: false }
-        ],
-        block: 4
-    },
-    {
-        id: "17",
-        question: "En 'Dragon Ball Z', ¿cómo se llama el guerrero que se transforma en Super Saiyajin por primera vez?",
-        answers: [
-            { answer: "Goku", isCorrect: true },
-            { answer: "Vegeta", isCorrect: false },
-            { answer: "Trunks", isCorrect: false },
-            { answer: "Gohan", isCorrect: false }
-        ],
-        block: 4
-    },
-    {
-        id: "18",
-        question: "¿Quién es el mejor amigo de Bart Simpson?",
-        answers: [
-            { answer: "Milhouse", isCorrect: true },
-            { answer: "Nelson", isCorrect: false },
-            { answer: "Ralph", isCorrect: false },
-            { answer: "Martin", isCorrect: false }
-        ],
-        block: 4
-    },
-    {
-        id: "19",
-        question: "¿Cuál es el deporte más popular en Argentina?",
-        answers: [
-            { answer: "Fútbol", isCorrect: true },
-            { answer: "Rugby", isCorrect: false },
-            { answer: "Hockey", isCorrect: false },
-            { answer: "Tenis", isCorrect: false }
-        ],
-        block: 4
-    },
-    {
-        id: "20",
-        question: "¿Cuál es la capital de Argentina?",
-        answers: [
-            { answer: "Buenos Aires", isCorrect: true },
-            { answer: "Córdoba", isCorrect: false },
-            { answer: "Rosario", isCorrect: false },
-            { answer: "Mendoza", isCorrect: false }
-        ],
-        block: 4
-    },
-    {
-        id: "21",
-        question: "¿Qué instrumento musical es típico del tango argentino?",
-        answers: [
-            { answer: "Bandoneón", isCorrect: true },
-            { answer: "Guitarra", isCorrect: false },
-            { answer: "Piano", isCorrect: false },
-            { answer: "Violín", isCorrect: false }
-        ],
-        block: 5
-    },
-    {
         id: "22",
-        question: "¿Cómo se llama el gato azul que siempre persigue a un ratón en una popular serie animada?",
+        question: "¿Cuál es el nombre del festival de música más famoso de Estados Unidos?",
         answers: [
-            { answer: "Tom", isCorrect: true },
-            { answer: "Garfield", isCorrect: false },
-            { answer: "Silvestre", isCorrect: false },
-            { answer: "Félix", isCorrect: false }
+            { answer: "Coachella", isCorrect: true },
+            { answer: "Lollapalooza", isCorrect: false },
+            { answer: "Burning Man", isCorrect: false },
+            { answer: "Glastonbury", isCorrect: false },
+            { answer: "Woodstock", isCorrect: false }
         ],
-        block: 5
+        block: 3
     },
     {
         id: "23",
-        question: "¿Cuál es el nombre de la superheroína que usa un lazo dorado y un avión invisible?",
+        question: "¿Qué banda lanzó el álbum 'The Dark Side of the Moon'?",
         answers: [
-            { answer: "Mujer Maravilla", isCorrect: true },
-            { answer: "Batgirl", isCorrect: false },
-            { answer: "Supergirl", isCorrect: false },
-            { answer: "Capitana Marvel", isCorrect: false }
+            { answer: "The Beatles", isCorrect: false },
+            { answer: "Pink Floyd", isCorrect: true },
+            { answer: "Led Zeppelin", isCorrect: false },
+            { answer: "The Rolling Stones", isCorrect: false },
+            { answer: "Queen", isCorrect: false }
         ],
-        block: 5
+        block: 3
     },
     {
         id: "24",
-        question: "¿Qué animal es Scooby-Doo?",
+        question: "¿Quién es el artista detrás del álbum 'Thriller'?",
         answers: [
-            { answer: "Perro", isCorrect: true },
-            { answer: "Gato", isCorrect: false },
-            { answer: "Ratón", isCorrect: false },
-            { answer: "Conejo", isCorrect: false }
+            { answer: "Madonna", isCorrect: false },
+            { answer: "Prince", isCorrect: false },
+            { answer: "Michael Jackson", isCorrect: true },
+            { answer: "David Bowie", isCorrect: false },
+            { answer: "Whitney Houston", isCorrect: false }
         ],
-        block: 5
+        block: 3
     },
     {
         id: "25",
-        question: "¿En qué serie animada aparecen las gemelas Patty y Selma?",
+        question: "¿Qué grupo es conocido por la canción 'Smells Like Teen Spirit'?",
         answers: [
-            { answer: "Los Simpsons", isCorrect: true },
-            { answer: "Futurama", isCorrect: false },
-            { answer: "South Park", isCorrect: false },
-            { answer: "Padre de familia", isCorrect: false }
+            { answer: "Nirvana", isCorrect: true },
+            { answer: "Pearl Jam", isCorrect: false },
+            { answer: "Alice in Chains", isCorrect: false },
+            { answer: "Soundgarden", isCorrect: false },
+            { answer: "Red Hot Chili Peppers", isCorrect: false }
         ],
-        block: 5
+        block: 3
     },
     {
         id: "26",
-        question: "¿Cómo se llama el niño que tiene un laboratorio secreto en su casa y una hermana que siempre lo mete en problemas?",
+        question: "¿Qué banda de rock estadounidense lanzó el álbum 'Nevermind'?",
         answers: [
-            { answer: "Dexter", isCorrect: true },
-            { answer: "Jimmy Neutron", isCorrect: false },
-            { answer: "Phineas", isCorrect: false },
-            { answer: "Timmy Turner", isCorrect: false }
+            { answer: "Nirvana", isCorrect: true },
+            { answer: "Foo Fighters", isCorrect: false },
+            { answer: "Pearl Jam", isCorrect: false },
+            { answer: "Green Day", isCorrect: false },
+            { answer: "The Smashing Pumpkins", isCorrect: false }
         ],
-        block: 6
+        block: 3
     },
     {
         id: "27",
-        question: "¿Qué famoso futbolista argentino es conocido por llevar el número 10 y por su apodo 'La Pulga'?",
+        question: "¿Qué cantante británica es conocida por la canción 'Rolling in the Deep'?",
         answers: [
-            { answer: "Lionel Messi", isCorrect: true },
-            { answer: "Diego Maradona", isCorrect: false },
-            { answer: "Gabriel Batistuta", isCorrect: false },
-            { answer: "Sergio Agüero", isCorrect: false }
+            { answer: "Adele", isCorrect: true },
+            { answer: "Amy Winehouse", isCorrect: false },
+            { answer: "Duffy", isCorrect: false },
+            { answer: "Leona Lewis", isCorrect: false },
+            { answer: "Jessie J", isCorrect: false }
         ],
-        block: 6
+        block: 3
     },
     {
         id: "28",
-        question: "¿Cuál es la montaña más alta de Argentina y de toda América?",
+        question: "¿Qué banda es conocida por la canción 'Bohemian Rhapsody'?",
         answers: [
-            { answer: "Aconcagua", isCorrect: true },
-            { answer: "Fitz Roy", isCorrect: false },
-            { answer: "Tupungato", isCorrect: false },
-            { answer: "Lanín", isCorrect: false }
+            { answer: "Queen", isCorrect: true },
+            { answer: "The Beatles", isCorrect: false },
+            { answer: "The Rolling Stones", isCorrect: false },
+            { answer: "Led Zeppelin", isCorrect: false },
+            { answer: "Pink Floyd", isCorrect: false }
         ],
-        block: 6
+        block: 3
     },
     {
         id: "29",
-        question: "¿Qué estación del año sigue después del invierno?",
+        question: "¿Cuál de estos artistas no formó parte de The Beatles?",
         answers: [
-            { answer: "Primavera", isCorrect: true },
-            { answer: "Verano", isCorrect: false },
-            { answer: "Otoño", isCorrect: false },
-            { answer: "Invierno", isCorrect: false }
+            { answer: "John Lennon", isCorrect: false },
+            { answer: "Mick Jagger", isCorrect: true },
+            { answer: "Paul McCartney", isCorrect: false },
+            { answer: "George Harrison", isCorrect: false },
+            { answer: "Ringo Starr", isCorrect: false }
         ],
-        block: 6
+        block: 3
     },
     {
         id: "30",
-        question: "¿Qué animal es conocido como el rey de la selva?",
+        question: "¿Qué álbum de The Beatles es conocido como 'El Álbum Blanco'?",
         answers: [
-            { answer: "León", isCorrect: true },
-            { answer: "Tigre", isCorrect: false },
-            { answer: "Elefante", isCorrect: false },
-            { answer: "Pantera", isCorrect: false }
+            { answer: "Abbey Road", isCorrect: false },
+            { answer: "Sgt. Pepper's Lonely Hearts Club Band", isCorrect: false },
+            { answer: "The Beatles", isCorrect: true },
+            { answer: "Let It Be", isCorrect: false },
+            { answer: "Revolver", isCorrect: false }
         ],
-        block: 6
+        block: 3
     }
 ];
 
-export default Questions;
+export default Questions
